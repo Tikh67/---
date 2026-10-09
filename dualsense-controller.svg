@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" preserveAspectRatio="xMidYMid meet" role="img" aria-label="PlayStation 5 DualSense controller">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#2c3140"/>
+      <stop offset="55%" stop-color="#1b1f29"/>
+      <stop offset="100%" stop-color="#10131a"/>
+    </radialGradient>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6f6f9"/>
+      <stop offset="45%" stop-color="#e4e4ea"/>
+      <stop offset="100%" stop-color="#c2c2cd"/>
+    </linearGradient>
+    <linearGradient id="gripShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#8f8f9c" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="bumperGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ececf1"/>
+      <stop offset="100%" stop-color="#b9b9c4"/>
+    </linearGradient>
+    <linearGradient id="triggerGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a4a54"/>
+      <stop offset="100%" stop-color="#232329"/>
+    </linearGradient>
+    <linearGradient id="touchGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#43434d"/>
+      <stop offset="100%" stop-color="#202027"/>
+    </linearGradient>
+    <radialGradient id="stickGrad" cx="50%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#55555f"/>
+      <stop offset="60%" stop-color="#33333b"/>
+      <stop offset="100%" stop-color="#1d1d23"/>
+    </radialGradient>
+    <linearGradient id="lightGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7fd0ff"/>
+      <stop offset="50%" stop-color="#3f9dff"/>
+      <stop offset="100%" stop-color="#2f6fe0"/>
+    </linearGradient>
+    <pattern id="gripDots" width="13" height="13" patternUnits="userSpaceOnUse">
+      <circle cx="3.2" cy="3.2" r="1.6" fill="#a9a9b6" opacity="0.6"/>
+      <circle cx="9.7" cy="9.7" r="1.6" fill="#a9a9b6" opacity="0.6"/>
+    </pattern>
+    <filter id="fBlurBig" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <filter id="fBlurMed" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <filter id="fGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="bodyClip">
+      <path d="M 310 175 C 380 162 620 162 690 175 C 730 182 760 195 775 215 C 800 245 820 300 825 360 C 830 430 815 505 775 550 C 745 585 700 580 675 545 C 650 510 635 470 615 450 C 595 432 550 425 500 425 C 450 425 405 432 385 450 C 365 470 350 510 325 545 C 300 580 255 585 225 550 C 185 505 170 430 175 360 C 180 300 200 245 225 215 C 240 195 270 182 310 175 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- background -->
+  <rect width="1000" height="700" fill="url(#bgGrad)"/>
+  <ellipse cx="500" cy="235" rx="300" ry="130" fill="#3a86ff" opacity="0.10" filter="url(#fBlurBig)"/>
+
+  <!-- ground shadow -->
+  <ellipse cx="500" cy="628" rx="315" ry="36" fill="#000000" opacity="0.45" filter="url(#fBlurMed)"/>
+
+  <!-- triggers L2 / R2 -->
+  <g>
+    <rect x="232" y="136" width="98" height="50" rx="20" fill="url(#triggerGrad)" stroke="#15151a" stroke-width="1.5"/>
+    <rect x="670" y="136" width="98" height="50" rx="20" fill="url(#triggerGrad)" stroke="#15151a" stroke-width="1.5"/>
+    <rect x="240" y="140" width="82" height="14" rx="7" fill="#5c5c66" opacity="0.7"/>
+    <rect x="678" y="140" width="82" height="14" rx="7" fill="#5c5c66" opacity="0.7"/>
+  </g>
+
+  <!-- bumpers L1 / R1 -->
+  <g>
+    <rect x="244" y="150" width="82" height="44" rx="18" fill="url(#bumperGrad)" stroke="#9d9daa" stroke-width="1.5"/>
+    <rect x="674" y="150" width="82" height="44" rx="18" fill="url(#bumperGrad)" stroke="#9d9daa" stroke-width="1.5"/>
+  </g>
+
+  <!-- USB-C port -->
+  <rect x="481" y="150" width="38" height="16" rx="6" fill="#1b1b21" stroke="#0e0e12" stroke-width="1.5"/>
+
+  <!-- main body -->
+  <path d="M 310 175 C 380 162 620 162 690 175 C 730 182 760 195 775 215 C 800 245 820 300 825 360 C 830 430 815 505 775 550 C 745 585 700 580 675 545 C 650 510 635 470 615 450 C 595 432 550 425 500 425 C 450 425 405 432 385 450 C 365 470 350 510 325 545 C 300 580 255 585 225 550 C 185 505 170 430 175 360 C 180 300 200 245 225 215 C 240 195 270 182 310 175 Z"
+        fill="url(#bodyGrad)" stroke="#8f8f9c" stroke-width="2"/>
+
+  <!-- grip shading + texture (clipped to body) -->
+  <g clip-path="url(#bodyClip)">
+    <path d="M 235 230 C 210 260 190 310 185 365 C 180 430 195 500 230 548 C 255 582 298 580 320 550 C 342 522 355 485 368 458 C 350 445 320 430 290 405 C 260 380 240 330 235 230 Z" fill="url(#gripShade)"/>
+    <path d="M 765 230 C 790 260 810 310 815 365 C 820 430 805 500 770 548 C 745 582 702 580 680 550 C 658 522 645 485 632 458 C 650 445 680 430 710 405 C 740 380 760 330 765 230 Z" fill="url(#gripShade)"/>
+    <path d="M 235 230 C 210 260 190 310 185 365 C 180 430 195 500 230 548 C 255 582 298 580 320 550 C 342 522 355 485 368 458 C 350 445 320 430 290 405 C 260 380 240 330 235 230 Z" fill="url(#gripDots)" opacity="0.5"/>
+    <path d="M 765 230 C 790 260 810 310 815 365 C 820 430 805 500 770 548 C 745 582 702 580 680 550 C 658 522 645 485 632 458 C 650 445 680 430 710 405 C 740 380 760 330 765 230 Z" fill="url(#gripDots)" opacity="0.5"/>
+    <path d="M 385 450 C 365 470 350 510 325 545 C 300 580 255 585 225 550" fill="none" stroke="#9a9aa8" stroke-width="10" opacity="0.25" filter="url(#fBlurMed)"/>
+    <path d="M 615 450 C 635 470 650 510 675 545 C 700 580 745 585 775 550" fill="none" stroke="#9a9aa8" stroke-width="10" opacity="0.25" filter="url(#fBlurMed)"/>
+  </g>
+
+  <!-- top edge highlight -->
+  <path d="M 315 176 C 382 164 618 164 685 176" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.85" stroke-linecap="round"/>
+
+  <!-- light bar around touchpad -->
+  <rect x="379" y="194" width="242" height="97" rx="26" fill="none" stroke="url(#lightGrad)" stroke-width="5" filter="url(#fGlow)" opacity="0.95"/>
+
+  <!-- touchpad -->
+  <rect x="385" y="200" width="230" height="85" rx="20" fill="url(#touchGrad)" stroke="#141419" stroke-width="1.5"/>
+  <path d="M 397 208 C 440 202 560 202 603 208" fill="none" stroke="#6a6a76" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+
+  <!-- create / options -->
+  <g>
+    <rect x="332" y="232" width="34" height="18" rx="9" fill="#2b2b33" stroke="#17171c" stroke-width="1.2"/>
+    <path d="M 339 238 h 12 M 339 242 h 12 M 339 246 h 12" stroke="#8f96a8" stroke-width="1.6" stroke-linecap="round"/>
+    <rect x="634" y="232" width="34" height="18" rx="9" fill="#2b2b33" stroke="#17171c" stroke-width="1.2"/>
+    <path d="M 641 238 h 12 M 641 242 h 12 M 641 246 h 12" stroke="#8f96a8" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+
+  <!-- speaker holes -->
+  <g fill="#17171c">
+    <circle cx="478" cy="296" r="1.7"/><circle cx="489" cy="296" r="1.7"/><circle cx="500" cy="296" r="1.7"/><circle cx="511" cy="296" r="1.7"/><circle cx="522" cy="296" r="1.7"/>
+    <circle cx="478" cy="303" r="1.7"/><circle cx="489" cy="303" r="1.7"/><circle cx="500" cy="303" r="1.7"/><circle cx="511" cy="303" r="1.7"/><circle cx="522" cy="303" r="1.7"/>
+    <circle cx="478" cy="310" r="1.7"/><circle cx="489" cy="310" r="1.7"/><circle cx="500" cy="310" r="1.7"/><circle cx="511" cy="310" r="1.7"/><circle cx="522" cy="310" r="1.7"/>
+  </g>
+
+  <!-- PS button -->
+  <g>
+    <circle cx="500" cy="345" r="21" fill="#2b2b33" stroke="#17171c" stroke-width="1.5"/>
+    <circle cx="500" cy="345" r="16.5" fill="#232329"/>
+    <path d="M 493 336 L 493 354 M 493 336 C 501 336 503 339 503 342 C 503 345 501 348 493 348" fill="none" stroke="#dfe6f3" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 509 337 C 515 335 518 338 515 341 C 512 344 509 345 509 348 C 509 351 513 353 518 352" fill="none" stroke="#dfe6f3" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- mute button -->
+  <g>
+    <rect x="476" y="390" width="48" height="17" rx="8.5" fill="#2b2b33" stroke="#17171c" stroke-width="1.2"/>
+    <rect x="496.5" y="393.5" width="7" height="10" rx="3.5" fill="#ff5a5a"/>
+    <path d="M 492 401 a 8 8 0 0 1 16 0" fill="none" stroke="#ff5a5a" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+
+  <!-- D-pad -->
+  <g>
+    <rect x="240" y="315" width="100" height="30" rx="7" fill="#33333b" stroke="#1c1c22" stroke-width="1.5"/>
+    <rect x="275" y="280" width="30" height="100" rx="7" fill="#33333b" stroke="#1c1c22" stroke-width="1.5"/>
+    <path d="M 290 290 l 6 9 h -12 Z" fill="#7d8494"/>
+    <path d="M 290 370 l 6 -9 h -12 Z" fill="#7d8494"/>
+    <path d="M 250 330 l 9 -6 v 12 Z" fill="#7d8494"/>
+    <path d="M 330 330 l -9 -6 v 12 Z" fill="#7d8494"/>
+  </g>
+
+  <!-- action buttons: triangle / circle / cross / square -->
+  <g>
+    <circle cx="710" cy="290" r="17" fill="#33333b" stroke="#1c1c22" stroke-width="1.5"/>
+    <circle cx="750" cy="330" r="17" fill="#33333b" stroke="#1c1c22" stroke-width="1.5"/>
+    <circle cx="710" cy="370" r="17" fill="#33333b" stroke="#1c1c22" stroke-width="1.5"/>
+    <circle cx="670" cy="330" r="17" fill="#33333b" stroke="#1c1c22" stroke-width="1.5"/>
+    <path d="M 710 282 L 718 296 L 702 296 Z" fill="none" stroke="#43c06a" stroke-width="2.4" stroke-linejoin="round"/>
+    <circle cx="750" cy="330" r="8.5" fill="none" stroke="#e5534b" stroke-width="2.4"/>
+    <path d="M 703.5 363.5 L 716.5 376.5 M 716.5 363.5 L 703.5 376.5" stroke="#4a8fe0" stroke-width="2.4" stroke-linecap="round"/>
+    <rect x="661.5" y="321.5" width="17" height="17" fill="none" stroke="#d46a9a" stroke-width="2.4"/>
+  </g>
+
+  <!-- analog sticks -->
+  <g>
+    <circle cx="382" cy="408" r="41" fill="#26262d" stroke="#15151a" stroke-width="1.5"/>
+    <circle cx="382" cy="408" r="34" fill="url(#stickGrad)"/>
+    <circle cx="382" cy="408" r="30" fill="none" stroke="#141419" stroke-width="4" stroke-dasharray="2.2 3.2"/>
+    <circle cx="382" cy="408" r="24" fill="#1e1e24" opacity="0.85"/>
+    <path d="M 362 398 a 24 24 0 0 1 40 -6" fill="none" stroke="#5c5c68" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+    <circle cx="618" cy="408" r="41" fill="#26262d" stroke="#15151a" stroke-width="1.5"/>
+    <circle cx="618" cy="408" r="34" fill="url(#stickGrad)"/>
+    <circle cx="618" cy="408" r="30" fill="none" stroke="#141419" stroke-width="4" stroke-dasharray="2.2 3.2"/>
+    <circle cx="618" cy="408" r="24" fill="#1e1e24" opacity="0.85"/>
+    <path d="M 598 398 a 24 24 0 0 1 40 -6" fill="none" stroke="#5c5c68" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+  </g>
+
+  <!-- vignette -->
+  <rect width="1000" height="700" fill="none" stroke="#000000" stroke-width="40" opacity="0.25" filter="url(#fBlurMed)"/>
+</svg>
