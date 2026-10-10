@@ -1,0 +1,186 @@
+{
+  "glyphs": {
+    "triangle": {
+      "viewBox": "0 0 100 100",
+      "svg": "<g transform=\"translate(0 -3.515) scale(1)\"><path d=\"M12.59 71.839 L40.798 24.306 A10.7 10.7 0 0 1 59.202 24.306 L87.41 71.839 A10.7 10.7 0 0 1 78.208 88 L21.792 88 A10.7 10.7 0 0 1 12.59 71.839 Z M19.703 77.49 L49.14 27.885 A1 1 0 0 1 50.86 27.885 L80.297 77.49 A1 1 0 0 1 79.437 79 L20.563 79 A1 1 0 0 1 19.703 77.49 Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/></g>",
+      "inkBBox": [
+        11.09,
+        15.59,
+        88.91,
+        84.5
+      ],
+      "inkSize": [
+        77.8,
+        68.9
+      ],
+      "standalone": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" color=\"#101114\"><g transform=\"translate(0 -3.515) scale(1)\"><path d=\"M12.59 71.839 L40.798 24.306 A10.7 10.7 0 0 1 59.202 24.306 L87.41 71.839 A10.7 10.7 0 0 1 78.208 88 L21.792 88 A10.7 10.7 0 0 1 12.59 71.839 Z M19.703 77.49 L49.14 27.885 A1 1 0 0 1 50.86 27.885 L80.297 77.49 A1 1 0 0 1 79.437 79 L20.563 79 A1 1 0 0 1 19.703 77.49 Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/></g></svg>"
+    },
+    "circle": {
+      "viewBox": "0 0 100 100",
+      "svg": "<circle cx=\"50\" cy=\"50\" r=\"36.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"9\"/>",
+      "inkBBox": [
+        9.03,
+        9.03,
+        90.97,
+        90.97
+      ],
+      "inkSize": [
+        81.9,
+        81.9
+      ],
+      "standalone": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" color=\"#101114\"><circle cx=\"50\" cy=\"50\" r=\"36.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"9\"/></svg>"
+    },
+    "cross": {
+      "viewBox": "0 0 100 100",
+      "svg": "<g transform=\"translate(50 50)\" fill=\"currentColor\"><rect x=\"-52\" y=\"-9\" width=\"104\" height=\"18\" rx=\"9\" transform=\"rotate(45)\"/><rect x=\"-52\" y=\"-9\" width=\"104\" height=\"18\" rx=\"9\" transform=\"rotate(-45)\"/></g>",
+      "inkBBox": [
+        10.63,
+        10.63,
+        89.38,
+        89.38
+      ],
+      "inkSize": [
+        78.8,
+        78.8
+      ],
+      "standalone": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" color=\"#101114\"><g transform=\"translate(50 50)\" fill=\"currentColor\"><rect x=\"-52\" y=\"-9\" width=\"104\" height=\"18\" rx=\"9\" transform=\"rotate(45)\"/><rect x=\"-52\" y=\"-9\" width=\"104\" height=\"18\" rx=\"9\" transform=\"rotate(-45)\"/></g></svg>"
+    },
+    "square": {
+      "viewBox": "0 0 100 100",
+      "svg": "<path d=\"M22 10 H78 A12 12 0 0 1 90 22 V78 A12 12 0 0 1 78 90 H22 A12 12 0 0 1 10 78 V22 A12 12 0 0 1 22 10 Z M22 19 H78 A3 3 0 0 1 81 22 V78 A3 3 0 0 1 78 81 H22 A3 3 0 0 1 19 78 V22 A3 3 0 0 1 22 19 Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>",
+      "inkBBox": [
+        9.97,
+        9.97,
+        90.03,
+        90.03
+      ],
+      "inkSize": [
+        80.1,
+        80.1
+      ],
+      "standalone": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" color=\"#101114\"><path d=\"M22 10 H78 A12 12 0 0 1 90 22 V78 A12 12 0 0 1 78 90 H22 A12 12 0 0 1 10 78 V22 A12 12 0 0 1 22 10 Z M22 19 H78 A3 3 0 0 1 81 22 V78 A3 3 0 0 1 78 81 H22 A3 3 0 0 1 19 78 V22 A3 3 0 0 1 22 19 Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/></svg>"
+    },
+    "ps-logo": {
+      "viewBox": "0 0 100 100",
+      "svg": "<g transform=\"translate(1.141 6.285) scale(0.857)\"><g transform=\"matrix(1 0 -0.24 1 21.12 0)\"><defs><mask id=\"pslogoGap\" maskUnits=\"userSpaceOnUse\" maskContentUnits=\"userSpaceOnUse\" x=\"-160\" y=\"-160\" width=\"480\" height=\"480\"><rect x=\"-160\" y=\"-160\" width=\"480\" height=\"480\" fill=\"#fff\"/><path d=\"M8 14 H49 A15 15 0 0 1 64 29 V46 A15 15 0 0 1 49 61 H23 V88 H8 Z M23 27 H41 A8 8 0 0 1 49 35 V38.5 A8 8 0 0 1 41 46.5 H23 Z\" fill=\"#000\" fill-rule=\"evenodd\" stroke=\"#000\" stroke-width=\"3\" stroke-linejoin=\"round\"/></mask></defs><g mask=\"url(#pslogoGap)\"><path d=\"M87.43 36.43 A11 11 0 0 0 71.93 51.93 L88.07 62.07 A11 11 0 1 1 70.66 74.26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"12\" stroke-linecap=\"round\"/></g><path d=\"M8 14 H49 A15 15 0 0 1 64 29 V46 A15 15 0 0 1 49 61 H23 V88 H8 Z M23 27 H41 A8 8 0 0 1 49 35 V38.5 A8 8 0 0 1 41 46.5 H23 Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/></g></g>",
+      "inkBBox": [
+        8,
+        18.31,
+        92,
+        81.69
+      ],
+      "inkSize": [
+        84,
+        63.4
+      ],
+      "standalone": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" color=\"#101114\"><g transform=\"translate(1.141 6.285) scale(0.857)\"><g transform=\"matrix(1 0 -0.24 1 21.12 0)\"><defs><mask id=\"pslogoGap\" maskUnits=\"userSpaceOnUse\" maskContentUnits=\"userSpaceOnUse\" x=\"-160\" y=\"-160\" width=\"480\" height=\"480\"><rect x=\"-160\" y=\"-160\" width=\"480\" height=\"480\" fill=\"#fff\"/><path d=\"M8 14 H49 A15 15 0 0 1 64 29 V46 A15 15 0 0 1 49 61 H23 V88 H8 Z M23 27 H41 A8 8 0 0 1 49 35 V38.5 A8 8 0 0 1 41 46.5 H23 Z\" fill=\"#000\" fill-rule=\"evenodd\" stroke=\"#000\" stroke-width=\"3\" stroke-linejoin=\"round\"/></mask></defs><g mask=\"url(#pslogoGap)\"><path d=\"M87.43 36.43 A11 11 0 0 0 71.93 51.93 L88.07 62.07 A11 11 0 1 1 70.66 74.26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"12\" stroke-linecap=\"round\"/></g><path d=\"M8 14 H49 A15 15 0 0 1 64 29 V46 A15 15 0 0 1 49 61 H23 V88 H8 Z M23 27 H41 A8 8 0 0 1 49 35 V38.5 A8 8 0 0 1 41 46.5 H23 Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/></g></g></svg>"
+    },
+    "create": {
+      "viewBox": "0 0 100 100",
+      "svg": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M32.6 46.4 L67.4 27.6 M32.6 53.6 L67.4 72.4\"/><circle cx=\"26\" cy=\"50\" r=\"7.5\"/><circle cx=\"74\" cy=\"24\" r=\"7.5\"/><circle cx=\"74\" cy=\"76\" r=\"7.5\"/></g>",
+      "inkBBox": [
+        17.47,
+        15.5,
+        82.53,
+        84.5
+      ],
+      "inkSize": [
+        65.1,
+        69
+      ],
+      "standalone": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" color=\"#101114\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M32.6 46.4 L67.4 27.6 M32.6 53.6 L67.4 72.4\"/><circle cx=\"26\" cy=\"50\" r=\"7.5\"/><circle cx=\"74\" cy=\"24\" r=\"7.5\"/><circle cx=\"74\" cy=\"76\" r=\"7.5\"/></g></svg>"
+    },
+    "options": {
+      "viewBox": "0 0 100 100",
+      "svg": "<g stroke=\"currentColor\" stroke-width=\"8\" stroke-linecap=\"round\"><path d=\"M19 28 H81 M19 50 H81 M19 72 H81\"/></g>",
+      "inkBBox": [
+        15.03,
+        24.03,
+        84.97,
+        75.97
+      ],
+      "inkSize": [
+        69.9,
+        51.9
+      ],
+      "standalone": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" color=\"#101114\"><g stroke=\"currentColor\" stroke-width=\"8\" stroke-linecap=\"round\"><path d=\"M19 28 H81 M19 50 H81 M19 72 H81\"/></g></svg>"
+    },
+    "mic-mute": {
+      "viewBox": "0 0 100 100",
+      "svg": "<g transform=\"translate(0 0.28) scale(1)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"><rect x=\"41\" y=\"19\" width=\"18\" height=\"37\" rx=\"9\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M28 44 A22 22 0 0 0 72 44\"/><path d=\"M50 66 V79 M37 79 H63\"/><path d=\"M22 74 L78 26\" stroke-width=\"3.4\"/></g></g>",
+      "inkBBox": [
+        20.28,
+        19.25,
+        79.72,
+        80.75
+      ],
+      "inkSize": [
+        59.4,
+        61.5
+      ],
+      "standalone": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" color=\"#101114\"><g transform=\"translate(0 0.28) scale(1)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"><rect x=\"41\" y=\"19\" width=\"18\" height=\"37\" rx=\"9\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M28 44 A22 22 0 0 0 72 44\"/><path d=\"M50 66 V79 M37 79 H63\"/><path d=\"M22 74 L78 26\" stroke-width=\"3.4\"/></g></g></svg>"
+    },
+    "mic-hole": {
+      "viewBox": "0 0 100 100",
+      "svg": "<circle cx=\"50\" cy=\"50\" r=\"25\" fill=\"#2b3038\"/><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#0b0c0f\"/>",
+      "inkBBox": [
+        24.97,
+        24.97,
+        75.03,
+        75.03
+      ],
+      "inkSize": [
+        50.1,
+        50.1
+      ],
+      "standalone": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" color=\"#101114\"><circle cx=\"50\" cy=\"50\" r=\"25\" fill=\"#2b3038\"/><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#0b0c0f\"/></svg>"
+    },
+    "usb-c": {
+      "viewBox": "0 0 100 100",
+      "svg": "<rect x=\"12\" y=\"38\" width=\"76\" height=\"24\" rx=\"12\" fill=\"#171a1f\"/><rect x=\"15\" y=\"41\" width=\"70\" height=\"18\" rx=\"9\" fill=\"#0a0b0d\"/><rect x=\"19\" y=\"46.5\" width=\"62\" height=\"7\" rx=\"3.5\" fill=\"#99a1ae\"/>",
+      "inkBBox": [
+        12.03,
+        38,
+        87.97,
+        62
+      ],
+      "inkSize": [
+        75.9,
+        24
+      ],
+      "standalone": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" color=\"#101114\"><rect x=\"12\" y=\"38\" width=\"76\" height=\"24\" rx=\"12\" fill=\"#171a1f\"/><rect x=\"15\" y=\"41\" width=\"70\" height=\"18\" rx=\"9\" fill=\"#0a0b0d\"/><rect x=\"19\" y=\"46.5\" width=\"62\" height=\"7\" rx=\"3.5\" fill=\"#99a1ae\"/></svg>"
+    }
+  },
+  "notes": {
+    "sheet": "refs/glyphs.svg - 1200x900, background #f2f3f5, 4x3 grid of 300x300 cells, every glyph drawn at 2.4x inside its own 100x100 local box (faint box outline + centre tick = guide, not part of the glyph).",
+    "usage": "glyphs.<name>.svg is inline-ready inner markup (a <g> tree) authored in a 0..100 local box: drop it inside any <g transform=\"translate(tx ty) scale(s)\"> or inside a <svg viewBox=\"0 0 100 100\">. No <text>, no fonts, no external references. \"standalone\" is the same art wrapped in its own <svg> for a quick file-level preview.",
+    "centring": "Each glyph is auto-positioned so its measured ink bbox is centred in the 0..100 box (measured from a 3200px render over a padded viewBox, thresholded at 50% alpha; <=0.1 unit antialias fringe included).",
+    "inkBBoxes": {
+      "triangle": "[11.09, 15.59, 88.91, 84.5]  77.8x68.9  centre (50.0, 50.0)",
+      "circle": "[9.03, 9.03, 90.97, 90.97]  81.9x81.9  centre (50.0, 50.0)",
+      "cross": "[10.63, 10.63, 89.38, 89.38]  78.8x78.8  centre (50.0, 50.0)",
+      "square": "[9.97, 9.97, 90.03, 90.03]  80.1x80.1  centre (50.0, 50.0)",
+      "ps-logo": "[8, 18.31, 92, 81.69]  84x63.4  centre (50.0, 50.0)",
+      "create": "[17.47, 15.5, 82.53, 84.5]  65.1x69  centre (50.0, 50.0)",
+      "options": "[15.03, 24.03, 84.97, 75.97]  69.9x51.9  centre (50.0, 50.0)",
+      "mic-mute": "[20.28, 19.25, 79.72, 80.75]  59.4x61.5  centre (50.0, 50.0)",
+      "mic-hole": "[24.97, 24.97, 75.03, 75.03]  50.1x50.1  centre (50.0, 50.0)",
+      "usb-c": "[12.03, 38, 87.97, 62]  75.9x24  centre (50.0, 50.0)"
+    },
+    "colours": "triangle / circle / cross / square / ps-logo / create / options / mic-mute use fill|stroke=\"currentColor\" (inherits; defaults to black). mic-hole and usb-c carry explicit dark greys because their look depends on colour.",
+    "weights": "All PlayStation shapes share one 9/100 weight (ring wall = 9 units of the 100-unit box, i.e. 9% of the glyph box).",
+    "glyphNotes": {
+      "triangle": "PlayStation triangle: upwards rounded-corner ring, 9/100 wall, equilateral-ish with a slightly flat base.",
+      "circle": "PlayStation circle: perfect ring, uniform 9/100 wall.",
+      "cross": "PlayStation cross: two 104 x 18 rounded bars at +/-45 deg (bar ~5.8x its thickness), round caps.",
+      "square": "PlayStation square: upright axis-aligned ring, 9/100 wall, outer corner radius 12 (inner 3).",
+      "ps-logo": "PlayStation PS monogram: italic capital P (stem 15 wide, cap 74 tall, 15-unit bowl wall) leaning on a shear of 0.24 about the design baseline y=88, with a smaller capital S (two tangent r=11 arcs + middle diagonal, stroked 12, cap ~62) overlapping behind it on the right. One solid colour; a 1.5-unit transparent gap is knocked out of the S around the P silhouette so the overlap reads. Uses <mask id=\"pslogoGap\">; rename the id if you inline two copies into one document (identical definitions, so a duplicated id still renders correctly).",
+      "create": "DualSense Create: share glyph - 3 hollow nodes (r=7.5) + 2 links, 2-unit stroke, round caps.",
+      "options": "DualSense Options: 3 equal 62-long horizontal lines, 8 thick, 22 apart, round caps.",
+      "mic-mute": "Microphone: capsule (18x37 pill) + cradle arc (r=22 centred on y=44) + stem and base bar + subtle mute slash.",
+      "mic-hole": "Microphone hole: dark disc r=25 with a lighter soft rim ring (inner disc r=20).",
+      "usb-c": "USB-C receptacle from the front: 76x24 slot (r=12), darker inner cavity, 62x7 metal tongue."
+    },
+    "psLogoNote": "ps-logo is authored in an upright italic-capital frame (P cap 14..88, P x 8..64, S skeleton x 68..92) and then sheared; the finished ink is scaled so its longest side is 84 units. The shear axis IS the slanted baseline (horizontal baseline, letters leaning right), which is how Sony draws it."
+  }
+}
